@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700,900&display=swap');
+html, body {
+	font-family: 'Muli', sans-serif;
+}
+.body {
+    width: 1280px;
+}
+.header {
+	width: 100%;
+	height: 930px;
+}
+.section1 {
+	width: 100%;
+	height: 930px;
+}
+.FON {
+	width: 100%;
+	height: 930px;
+	position: absolute; 
+	top: 0; 
+	left: 0;
+}
+.menu {
+	float: right;
+	margin-right: 142px;
+	margin-top: 38px;
+}
+.menu li {
+	display: block;
+	position: relative;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	float: left;
+	margin-right: 54px;
+}
+.menu li:hover {
+	text-decoration: underline;
+}
+.Text1 {
+	display: block;
+	position: absolute;
+	font-size: 32px;
+	font-weight: bold;
+	color:white;
+	margin-left: 380px;
+	margin-top: 265px;
+}
+.Text2 {
+	font-size: 13px;
+	display: block;
+	position: absolute;
+	color: white;
+	margin-top: 325px;
+	margin-left: 410px;
+}
+.sel1 {
+	display: block;
+	position: absolute;
+	margin-top: 0;
+	width: 100%;
+	height: 140px;
+	background: #f5f6f7;
+	color: #585858;
+	padding-top: 60px;
+}
+input[type="checkbox"] {
+	display: none;
+}
+label {
+	padding-left: 40px;
+	text-transform: uppercase;
+}
+label::before {
+	content: '';
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background-color: #aa9b77;
+	vertical-align: middle;
+	margin-left: -10px;
+	margin-right: 10px;
+	transition: 0.2s;
+}
+input[type="checkbox"]:checked + label::before {
+	background-color: white;
+	content: 'V';
+	text-align: center;
+	font-size: 20px;
+}
+.button1 {
+	display: block;
+	position: absolute;
+	text-align: center;
+	color: white;
+	background-color: #aa9b77;
+	margin-left: 980px;
+	padding: 21px 33px;
+	border-radius: 4px;
+	text-transform: uppercase;
+}
+.button1:hover {
+    font-weight: bold;
+    padding: 21px 29px;
+    cursor: pointer;
+}
+.Men {
+	width: 100%;
+	height: 650px;
+	background-color: white;
+	display: flex;
+	position: absolute;
+	margin-top: 140px;
+}
+.For1 {
+ color: #424242;
+ font-size: 14px;
+ font-weight: bold;
+ display: block;
+ position: absolute;
+ margin-top: 90px;
+ margin-left: 100px;
+}
+.line1 {
+	width: 995px;
+	height: 1px;
+	color: #cccccc;
+	display: block;
+	position: absolute;
+	margin-top: 89px;
+	margin-left: 190px;
+}
+.slid1 {
+	display: block;
+	position: absolute;
+	margin-left: 1150px;
+	margin-top: 150px;
+}
+.rows1 {
+	display: flex;
+	margin-top: 200px;
+}
+.rows1 li {
+	height: 375px;
+	width: 315px;
+	background-color: #f5f6f7;
+	display: inline-block;
+	position: relative;
+	float: left;
+	margin-right: 64px;
+	border: 5px solid #f5f6f7;
+}
+.rows1 li:hover {
+	border: 5px solid #aa9b77;
+	transition: 0.2s;
+}
+.Women {
+	width: 100%;
+	height: 650px;
+	background-color: white;
+	display: flex;
+	position: absolute;
+	margin-top: 790px;
+}
+.line2 {
+display: block;
+position: absolute;
+width: 995px;
+margin-left: 105px;
+}
+.For2 {
+	display: block;
+	position: absolute;
+	margin-left: 1110px;
+	color: #424242;
+    font-size: 14px;
+    font-weight: bold;
+}
+.slid2 {
+	display: block;
+	position: absolute;
+	margin-top: 65px;
+	margin-left: 100px;
+}
+.rows2 {
+	display: flex;
+	margin-top: 115px;
+}
+.rows2 li {
+	height: 375px;
+	width: 315px;
+	background-color: #f5f6f7;
+	display: inline-block;
+	position: relative;
+	float: left;
+	margin-right: 64px;
+	border: 5px solid #f5f6f7;
+}
+.rows2 li:hover {
+	border: 5px solid #aa9b77;
+	transition: 0.2s;
+}
+.About {
+	width: 100%;
+	height: 400px;
+	display: flex;
+	position: absolute;
+	background-color: #aa9b77;
+	margin-top: 1430px;
+	justify-content: center;
+	align-items: center;
+}
+.rectangle {
+	display: block;
+	position: absolute;
+	width: 710px;
+	height: 250px;
+	background: #aa9b77;
+    border: 2px solid #918363;
+}
+.Zag1 {
+	font-size: 18px;
+	color: #918363;
+	text-transform: uppercase;
+	text-align: center;
+}
+.description1 {
+    font-size: 14px;
+	color: #424242;
+	text-align: center;
+}
+.grayMiesto {
+	width: 100%;
+	height: 70px;
+	display: block;
+	position: absolute;
+	margin-top: 1800px;
+	background-color: #535253;	
+}
+.text {
+	color: white;
+	font-size: 14px;
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 112px;
+}
+.trekking {
+	width: 100%;
+	height: 350px;
+	display: block;
+	position: absolute;
+	margin-top: 1870px;
+	background-color: #424242;
+	color: white;
+	font-size: 14px;
+}
+.headline {
+	display: block;
+	position: absolute;
+	text-transform: uppercase;
+	color: white;
+	font-size: 16px;
+    margin-top: 110px;
+	margin-left: 65px;
+}
+.TextBut {
+	position: absolute;
+	margin-top: 145px;
+	margin-left: 64px;
+}
