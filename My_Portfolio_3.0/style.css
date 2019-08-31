@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya:400,700,900&display=swap&subset=cyrillic');
+.body {
+width: 1280px;
+font-family: 'Alegreya', serif;
+font-family: Arial, sans-serif;
+}
+
+.hello {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 1000px;
+	top: 0;
+	left: 0;
+	background-color: #e4dddd;
+	
+	
+}
+#headline1 {
+	display: flex;
+	position: relative;
+	font-family: Arial, sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+	color: #16165e;
+	justify-content: center;
+	margin-top: 80px;
+}
+.icon1 {
+	position: absolute;
+	display: block;
+	width: 180px;
+	margin-top: 260px;
+	margin-left: 90px;
+}
+.name {
+	position: absolute;
+	display: block;
+	font-family: 'Alegreya', serif;
+	font-size: 20px;
+	font-weight: normal;
+	color: #16165e;
+	margin-top: 420px;
+	margin-left: 145px;
+}
+.descriptName {
+	position: relative;
+	display: flex;
+	font-family: 'Alegreya', serif;
+	font-size: 20px;
+	font-weight: normal;
+	color: #16165e;
+	text-shadow: 2px 1px 6px black;
+	justify-content: center;
+	margin-top: 426px;
+	
+}
+.flexbox1 {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 80px;
+}
+.icon2 {
+	width: 245px;
+	margin-left: 12px;
+}
+.icon3 {
+	width: 150px;
+}
+.btn1 {
+	position: relative;
+	display: flex;
+	width: 150px;
+	height: 75px;
+	font-family: 'Alegreya', serif;
+	font-size: 15px;
+	font-weight: normal;
+	background-color: #0c00ff;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	text-align: center;
+	margin-left: 545px;
+}
+.btn1:hover {
+	cursor: pointer;
+}
+.head1 {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 10px;
+	font-size: 16px;
+}
+.overlay1 {
+	position: fixed;
+	background-color: white;
+	width: 1280px;
+	height: 1024px;
+	top: 0;
+	left: 0;
+	background-color: grey;
+	opacity: 0.7;
+	display: none;
+	z-index: 1;
+}
+.modalen1 {
+	position: fixed;
+	width: 300px;
+	background-color: white;
+	justify-content: center;
+	top: 50%;
+	left: 50%;
+	padding: 20px;
+	transform: translate(-350%, -50%);
+}
+.modalen1_active {
+	transform: translate(-50%, -50%);
+	transition: all 1s;
+	z-index: 1;
+}
+.close1 {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	font-size: 20px;
+}
+.close1:hover {
+	cursor: pointer;
+}
+.btn-delivery1 {
+	margin-top: 5px;
+}
+.ownDescript {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 300px;
+	background-color: #cfd0d9;
+	margin-top: 1000px;
+}
+.tabes {
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	font-family: Arial, sans-serif;
+	font-size: 21px;
+	font-weight: 700;
+	color: #16165e;
+	margin: 0;
+}
+.tab {
+	margin: 20px;
+}
+.tab:hover {
+	cursor: pointer;
+}
+.contents {
+	padding: 20px;
+}
+.content {
+	display: none;
+}
+.content_active {
+	display: inline-block;
+	font-family: 'Alegreya', serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #0c00ff;
+	margin-left: 520px;
+	
+}
+.close {
+    position: relative;
+	float: right;
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+}
+.close:hover {
+	cursor: pointer;
+}
+.ownWorks {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 1000px;
+	background-color: #eae8c1;
+	margin-top: 1300px;
+}
+.headline2 {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	font-family: Arial, sans-serif;
+	font-size: 21px;
+	font-weight: 700;
+	color: #16165e;
+	margin-top: 20px;
+
+}
+.cards {
+
+}
+.row1 {
+	position: relative;
+	display: flex;
+	width: 95%;
+	justify-content: space-around;
+	margin-top: 100px;
+	margin-left: 30px;
+	flex-direction: row;
+
+
+}
+.row2 {
+	position: relative;
+	display: flex;
+	width: 95%;
+	justify-content: space-around;
+	margin-top: 180px;
+	margin-left: 30px;
+	flex-direction: row;
+}
+
+.card1, .card2, .card3, .card4, .card5, .card6 {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	perspective: 750px;
+	flex: 0 0 200px;
+    
+    
+}
+.front1, .front2 , .front3 ,.back1 , .back2 , .back3 {
+    position: absolute;
+    width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 1.5s;
+    backface-visibility: hidden;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.front1, .front2, .front3 {
+	background-color: green;
+}
+
+.back1, .back2, .back3 {
+	background-color: grey;
+	transform: rotateY(180deg);
+	display: flex;
+	position: absolute;
+	text-align: center;
+	align-items: center;
+	font-size: 14px;
+	font-family: 'Alegreya', serif;
+	font-weight: 700;
+	color: #c2e0e4;
+	line-height: 16px;
+
+}
+.card1:hover .front1{transform: rotateY(180deg);}
+.card1:hover .back1{transform: rotateY(360deg);}
+.card2:hover .front2{transform: rotateY(180deg);}
+.card2:hover .back2{transform: rotateY(360deg);}
+.card3:hover .front3{transform: rotateY(180deg);}
+.card3:hover .back3{transform: rotateY(360deg);}
+.card4:hover .front1{transform: rotateY(180deg);}
+.card4:hover .back1{transform: rotateY(360deg);}
+.card5:hover .front2{transform: rotateY(180deg);}
+.card5:hover .back2{transform: rotateY(360deg);}
+.card6:hover .front3{transform: rotateY(180deg);}
+.card6:hover .back3{transform: rotateY(360deg);}
+
+
+.icon {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.descript {
+	position: relative;
+	display: flex;
+	width: 95%;
+	justify-content: space-around;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+li {
+	list-style: none;
+}
+.descript li {
+	width: 200px;
+	font-size: 16px;
+	font-family: 'Alegreya', serif;
+	color: black;
+	text-shadow: 0px 2px 5px white;
+}
+
+
+.Trigger {
+	position: absolute;
+	display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background-color: #c0eae6;
+    margin-top: 2300px;
+}
+.interesting {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	font-family: Arial, sans-serif;
+	font-size: 21px;
+	font-weight: 700;
+	color: #16165e;
+	margin-top: 40px; 
+
+}
+.icon4 {
+	position: relative;
+	display: block;
+	width: 45px;
+	margin-top: 15px;
+	margin-left: 520px;
+}
+.btn2 {
+	position: relative;
+	display: flex;
+	width: 150px;
+	height: 75px;
+	font-family: 'Alegreya', serif;
+	font-size: 15px;
+	font-weight: normal;
+	background-color: #0c00ff;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 545px;
+}
+.btn2:hover {
+	cursor: pointer;
+}
+.overlay2 {
+	position: fixed;
+	background-color: white;
+	width: 1280px;
+	height: 1024px;
+	top: 0;
+	left: 0;
+	background-color: grey;
+	opacity: 0.7;
+	display: none;
+	z-index: 1;
+}
+
+.head2 {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 10px;
+	font-size: 16px;
+}
+.modalen2 {
+	position: fixed;
+	width: 300px;
+	background-color: white;
+	justify-content: center;
+	top: 50%;
+	left: 50%;
+	padding: 20px;
+	transform: translate(-350%, -50%);
+}
+.modalen2_active {
+	transform: translate(-50%, -50%);
+	transition: all 1s;
+	z-index: 1;
+}
+.close2 {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	font-size: 20px;
+}
+.close2:hover {
+	cursor: pointer;
+}
+.btn-delivery2 {
+	margin-top: 5px;
+}
+
+@media screen and (max-width: 1050px) {
+	.descriptName {
+		margin-top: 476px;
+	}
+}
+@media screen and (max-width: 712px) {
+	.card1 , .card2, .card3, .card4 , .card5, .card6 {
+		flex-basis: 150px;
+		margin: 5px;
+	}
+	.icon4 {
+		margin-left: 300px;
+		transition: 0.5s;
+	}
+	.btn1 {
+		position: relative;
+		display: flex;
+		margin-left: 250px;
+		transition: 0.5s;
+	}
+	.btn2 {
+		margin-left: 325px;
+		transition: 0.5s;
+	}
+	.content_active {
+		margin-left: 225px;
+		transition: 0.5s;
+	}
+	
+}
+@media screen and (max-width: 480px) {
+	.card1 , .card2, .card3, .card4 , .card5, .card6 {
+		flex-basis: 125px;
+		margin: 10px;
+	}
+	.descriptName {
+		width: 85%;
+	}
+	.icon4 {
+		margin-left: 150px;
+		transition: 0.5s;
+	}
+	
+	.btn2 {
+		margin-left: 175px;
+		transition: 0.5s;
+	}
+
+}
