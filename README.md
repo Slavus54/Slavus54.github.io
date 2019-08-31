@@ -8,4 +8,4 @@
 
 (Новостной сайт с минималистичным дизайном - https://slavus54.github.io/Apple_NewsSite/index.html)
 
-(Мое портфолио работ - https://slavus54.github.io/My_Portfolio_3.0/index.html) - портфолио с 3д карточками
+(Мое портфолио работ -) - портфолио с 3д карточками
