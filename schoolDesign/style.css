@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alegreya:400,700,900&display=swap');
+
+body {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	overflow-x: hidden;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Alegreya', serif;
+}
+.container {
+	width: 1000px;
+	background-color: white;
+	
+}
+.container-header {
+	position: relative;
+	display: flex;
+	font-family: 'Montserrat', sans-serif;
+	align-items: center;	
+}
+#header__headline {
+	font-size: 30px;
+	font-weight: 100;
+	color: #a1a1a1;
+	margin-top: 92px;
+	margin-left: 25px;
+}
+.header__icon {
+	position: relative;
+	width: 171px;
+	height: 141px;
+	margin-left: 20px;
+	
+}
+.header-search {
+	position: relative;
+	display: flex;
+	align-items: center;
+	margin-top: 92px;
+}
+#header__search-form {
+	width: 110px;
+	height: 20px;
+	border: 3px solid black;
+	margin-left: 70px;
+}
+.header__button {
+	padding: 5px 2px;
+	color: white;
+	background-color: #0000ff;
+	border: none;
+	border-radius: 4px;
+	font-size: 10px;
+	font-weight: 700;
+	text-align: center;
+	align-items: center;
+	margin-left: 7px;
+}
+.container__button:hover {
+	cursor: pointer;
+}
+.container-row {
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	flex-basis: 125px;
+	flex-wrap: wrap;
+	background-color: white;
+	margin-top: 135px;
+}
+.container-tabs {
+	position: relative;
+	display: flex;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 11px;
+	font-weight: 700;
+	flex-basis: 125px;
+}
+.container-tabs:hover {
+	cursor: pointer;
+}
+.container-contents {
+	position: relative;
+	display: flex;
+	color: #a1a1a1;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 1px;
+	flex-basis: 125px;
+}
+.tab {
+	display: inline-block;
+	width: 125px;
+	height: 100px;
+	background-color: #ebeaea;
+	margin-left: 10px;
+	text-align: center;
+}
+.content {
+	display: none;
+	width: 125px;
+	
+}
+.content_active {
+	position: absolute;
+	display: block;
+	width: 950px;
+	color: #c2c2c2;
+	background-color: inherit;
+	margin-top: 0px;	
+}
+.container-body {
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+.body-columnLeft  {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	margin-top: 235px;
+	margin-right: 3px;
+}
+.body__icon {
+	position: relative;
+	width: 180px;
+	height: 100px;
+	margin-bottom: 25px;
+}
+.body__headline {
+	position: absolute;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+	margin-top: 160px;
+	right: 17%;
+}
+.body__image {
+	position: relative;
+	width: 640px;
+	height: 480px;
+	margin-top: 235px;
+}
+.body-columnRight {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	margin-top: 235px;
+	margin-left: 3px;
+}
+.body-href {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+.href {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #c2c2c2;
+	margin-top: 0px;
+}
+a {
+	text-decoration: none;
+}
+.container-bottom {
+	position: relative;
+	justify-content: center;
+}
+.bottom-text {
+	position: relative;
+	justify-content: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	left: 18%;
+}
+.bottom__reception {
+	margin-top: 50px;
+}
+.bottom__plan {
+	margin-top: 20px;
+}
+.bottom__vacantPlace {
+	margin-top: 20px;
+}
+#count {
+	color: #eb8206;
+}
+.bottom__adminText {
+	margin-top: 30px;
+	color: #93b1c0;
+}
+.bottom__image {
+	position: relative;
+	justify-content: center;
+	width: 640px;
+	margin-top: 30px;
+	left: 18%;
+}
+.bottom-beSafe {
+	position: relative;
+	justify-content: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	color: #93b1c0;
+	line-height: 30px;
+	margin-top: 60px;
+	left: 18%;
+}
+#safe {
+	color: #eb8206;
+}
+.bottom__icon {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin-top: ;
+	left: 40%;
+}
+.container-footer {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	font-family: 'Alegreya', serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: black;
+	opacity: 1;
+	line-height: 19px;
+	margin-top: 90px;
+}
