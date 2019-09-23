@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en, ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="description" content="My best calc">
+	<link rel="stylesheet" href="style.css">
+	<script src="main.js"></script>
+</head>
+<body>
+	<div class="calculatorTop">
+		<div class="calcTop">
+			<form name="former"><input type="text" name="res" placeholder="" style="margin-top: 7px"></form>
+			<div class="row"><button class="butON" onclick="clean()">C</button></div> 
+			<div class="row"><button class="butON" value="7" onclick="insert('7')">7</button>
+			<button class="butON" value="4" onclick="insert('4')">4</button>
+			<button class="butON" value="1" onclick="insert('1')">1</button>
+			<button class="butON" value="0" onclick="insert('0')">0</button></div>
+			<div class="row"><button class="butON" value="8" onclick="insert('8')">8</button>
+			<button class="butON" value="5" onclick="insert('5')">5</button>
+			<button class="butON" value="2" onclick="insert('2')">2</button>
+			<button class="butON" value="." onclick="insert('.')">.</button></div>
+			<div class="row"><button class="butON" value="9" onclick="insert('9')">9</button>
+			<button class="butON" value="6" onclick="insert('6')">6</button>
+			<button class="butON" value="3" onclick="insert('3')">3</button>
+			<button class="butON" value="+" onclick="insert('+')">+</button></div>
+			<div class="row"><button class="butON" value="/" onclick="insert('/')">/</button>
+			<button class="butON" value="*" onclick="insert('*')">*</button>
+			<button class="butON" value="-" onclick="insert('-')">-</button>
+			<button class="butON" value="" onclick="result()">=</button></div>
+		</div>
+	</div>
+</body>
+</html>
