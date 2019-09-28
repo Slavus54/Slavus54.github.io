@@ -1,6 +1,6 @@
 function insert (num) {
 	document.getElementById('res').value += num;
-	//document.former.res.value += num;
+	//document.formname.inputname.value += num;
 }
 function clean() {
 	document.getElementById('res').value = "";
