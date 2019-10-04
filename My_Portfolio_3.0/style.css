@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya:400,700,900&display=swap&subset=cyrillic');
-.body {
-width: 1280px;
-font-family: 'Alegreya', serif;
-font-family: Arial, sans-serif;
-}
 
+body {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	font-family: 'Alegreya', serif;
+	font-family: Arial, sans-serif;
+}
+.container {
+	width: 1200px;
+}
 .hello {
 	position: absolute;
 	display: block;
