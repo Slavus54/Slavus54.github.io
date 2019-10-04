@@ -2,21 +2,24 @@
 html, body {
 	font-family: 'Muli', sans-serif;
 }
-.body {
-	margin: 0;
-	width: 100%;
-	height: 1200px;
-	background-color: #fcfbfb;
+body {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+.container {
+	width: 1200px;
 }
 .line {
-width: 100%;
-height: 8px;
-margin: 0;
-background-color: #f2ac04;
-border: 1px solid #f2ac04;
+	width: 100%;
+	height: 8px;
+	margin: 0;
+	background-color: #f2ac04;
+	border: 1px solid #f2ac04;
 }
 .header {
-margin: 0px;
+	margin: 0px;
 }
 .Zag1 {
 	margin-top: 50px;
@@ -27,15 +30,15 @@ margin: 0px;
 	font-weight: bold;
 }
 .line1 {
-  margin-left: 220px;
-  width: 48px;
-  transform: rotate(90deg); 
-  color: grey;
-  display: block;
-  float: top;
-  padding: 0px;
-  position: absolute;
-  margin-top: 60px;
+	margin-left: 220px;
+	width: 48px;
+	transform: rotate(90deg); 
+	color: grey;
+	display: block;
+	float: top;
+	padding: 0px;
+	position: absolute;
+	margin-top: 60px;
 }
 .containerZag {
 	position: absolute;
@@ -75,14 +78,14 @@ margin: 0px;
 .SupT {
 	display: block;
 	position: absolute;	
-	width: 100%;
+	width: 1200px;
 	color: #ababab;
 	margin-top: 99px;
 }
 .NizT {
 	display: block;
 	position: absolute;	
-	width: 100%;
+	width: 1200px;
 	color: #ababab;
 	margin-top: 133px;
 }
@@ -101,10 +104,10 @@ margin: 0px;
     border: 1px solid #b0b0b0;
 }
 .grass {
-height: 90%;
-width: 100%;
-display: block;
-float: top;
+	height: 90%;
+	width: 100%;
+	display: block;
+	float: top;
 }
 .text-box1 {
 	text-align: center;
@@ -132,7 +135,7 @@ float: top;
 	float: top;
 }
 .LineIn {
-	width: 100%;
+	width: 1200px;
 	margin-top: 7px;
 	color: #000000;
 	transform: rotate(90deg);
@@ -146,23 +149,23 @@ float: top;
 	word-spacing: 2.5px;
 }
 .text-bottom2 {
-width: 55px;
-height: 15px;
-display: block;
-background-color: black;
-color: white;
-padding: 3px 7px;
-position: absolute;
-padding: 3px 7px;
-margin-left: 350px;
-margin-top: 30px;
-font-size: 15px;
+	width: 55px;
+	height: 15px;
+	display: block;
+	background-color: black;
+	color: white;
+	padding: 3px 7px;
+	position: absolute;
+	padding: 3px 7px;
+	margin-left: 350px;
+	margin-top: 30px;
+	font-size: 15px;
 }
 .text-bottom2:hover {
 	cursor: pointer;
 }
 .MiddleLine {
-	width: 100%;
+	width: 1200px;
 	color: #cccccc;
 	display: block;
 	position: absolute;
@@ -263,41 +266,41 @@ font-size: 15px;
 	margin-right: 27px;	
 }
 .icon1 {
-width: 21px;
-height: 21px;
-color: #bcbcbd;
+	width: 21px;
+	height: 21px;
+	color: #bcbcbd;
 }
  .ph1 {
- font-size: 12px;
- font-weight: bold; 
+	 font-size: 12px;
+	 font-weight: bold; 
 }
 
 .LINEc-s3-1 { 
- width: 280px;
- color: #999999;
- display: block;
- position: absolute;
- margin-top: 20px;
+	width: 280px;
+	color: #999999;
+	display: block;
+	position: absolute;
+	margin-top: 20px;
 }
 
 .group2 li {
-display: block;
+	display: block;
 }
 
 .icon2 {
-width: 21px;
-height: 21px;
-display: block;
-position: absolute;
-margin-top: 40px;
+	width: 21px;
+	height: 21px;
+	display: block;
+	position: absolute;
+	margin-top: 40px;
 }
 .ph2 {
-font-size: 12px;
-font-weight: bold;
-position: absolute;
-margin-top: 42px;
-margin-left: 48px;
-display: block;
+	font-size: 12px;
+	font-weight: bold;
+	position: absolute;
+	margin-top: 42px;
+	margin-left: 48px;
+	display: block;
 }
 
 .LINEc-s3-2 {
@@ -336,11 +339,11 @@ display: block;
 	display: block;
 }
 .icon4 {
-widows: 21px;
-height: 21px;
-display: block;
-position: absolute;
-margin-top: 120px;
+	widows: 21px;
+	height: 21px;
+	display: block;
+	position: absolute;
+	margin-top: 120px;
 }
 .ph4 {
 	font-size: 12px;
@@ -375,7 +378,7 @@ margin-top: 120px;
 }
 .ClLine2 {
 	color: #cccccc;
-	width: 100%;
+	width: 1077px;
 	height: 1px;
 	display: block;
 	position: absolute;
@@ -396,14 +399,14 @@ margin-top: 120px;
     animation-iteration-count: infinite;
 }
 @keyframes s {
-0%, 30% {transform: rotate(0deg);
+	0%, 30% {transform: rotate(0deg);
 
-}
-70% {background-color: blue;}
+	}
+	70% {background-color: blue;}
 
-80% {background-color: red;}
+	80% {background-color: red;}
 
-100% {transform: rotate(360deg);}
+	100% {transform: rotate(360deg);}
 
 }
 .LOADING {
