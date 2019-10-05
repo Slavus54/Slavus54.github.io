@@ -11,17 +11,21 @@ body {
 .container {
 	width: 1200px;
 }
-.line {
+.header {
+	
+}
+.main {
+	margin: 0px;
+}
+.header__line {
 	width: 100%;
 	height: 8px;
 	margin: 0;
 	background-color: #f2ac04;
 	border: 1px solid #f2ac04;
 }
-.header {
-	margin: 0px;
-}
-.Zag1 {
+
+.header__Zag1 {
 	margin-top: 50px;
 	margin-left: 116px;
 	font-size: 29px;
@@ -29,7 +33,7 @@ body {
 	position: absolute;
 	font-weight: bold;
 }
-.line1 {
+.header__line1 {
 	margin-left: 220px;
 	width: 48px;
 	transform: rotate(90deg); 
@@ -47,7 +51,7 @@ body {
 	margin-left: 268px;
 	margin-top: 48px;
 }
-.Sup {
+.containerZag__Sup {
 	font-size: 20px;
 	color: #f2ac04;
 	display: block;
@@ -55,7 +59,7 @@ body {
     margin-top: 0px;
     word-spacing: 6px;
 }
-.PremiT {
+.containerZag__PremiT {
     font-size: 16px;
 	color: #898989;
 	display: block;
@@ -65,42 +69,42 @@ body {
 	position: absolute;
 	margin-top: 100px;
 }
-.menu {
+.buttons__menu {
 	margin-left: 0px;
 }
-.menu li {
+.buttons__menu li {
  	float: left;
  	display: block;
  	margin-right: 87px;
  	font-size: 16px;
 	color: #898989;
 }
-.SupT {
+.header__SupT {
 	display: block;
 	position: absolute;	
 	width: 1200px;
 	color: #ababab;
 	margin-top: 99px;
 }
-.NizT {
+.header__NizT {
 	display: block;
 	position: absolute;	
 	width: 1200px;
 	color: #ababab;
 	margin-top: 133px;
 }
-.FEATUREDPRODUCTS {
-	position: absolute;
+.main__FEATUREDPRODUCTS {
+	position: relative;
     font-size: 12px;
 	color: #9a9b9b;
 	margin-top: 202px;
 }
-.content-box1 {
+.main__content-box1 {
 	height: 300px;
 	width: 435px;
 	display: block;
 	position: absolute;
-    margin-top: 231px;
+    margin-top: 30px;
     border: 1px solid #b0b0b0;
 }
 .grass {
@@ -109,22 +113,22 @@ body {
 	display: block;
 	float: top;
 }
-.text-box1 {
+.main__text-box1 {
 	text-align: center;
 	color: #666666;
 	font-size: 16px;
 	font-weight: normal;
 	word-spacing: 2.5px;
 }
-.text-box1:hover {
+.main__text-box1:hover {
     cursor: pointer;
 }
-.content-box2 {
+.main__content-box2 {
 	height: 300px;
 	width: 435px;
 	display: block;
 	position: absolute;
-    margin-top: 231px;
+    margin-top: 30px;
     border: 1px solid #b0b0b0;
     margin-left: 525px;
 }
@@ -134,21 +138,21 @@ body {
 	display: block;
 	float: top;
 }
-.LineIn {
+.main__LineIn {
 	width: 1200px;
 	margin-top: 7px;
 	color: #000000;
 	transform: rotate(90deg);
 
 } 
-.text-box2 {
+.main__text-box2 {
 	text-align: center;
 	color: #000000;
 	font-size: 12px;
 	padding: 1px;
 	word-spacing: 2.5px;
 }
-.text-bottom2 {
+.main__text-bottom2 {
 	width: 55px;
 	height: 15px;
 	display: block;
@@ -161,10 +165,10 @@ body {
 	margin-top: 30px;
 	font-size: 15px;
 }
-.text-bottom2:hover {
+.main__text-bottom2:hover {
 	cursor: pointer;
 }
-.MiddleLine {
+.main__MiddleLine {
 	width: 1200px;
 	color: #cccccc;
 	display: block;
@@ -207,7 +211,7 @@ body {
     padding: 3px 5px;
     position: relative; 
 }
-.c-s1TEXT {
+.main__c-s1TEXT {
 	font-size: 18px;
 	font-weight: bold;
 	color: #565656;
@@ -216,10 +220,10 @@ body {
 	margin: 0px;
 	padding: 0px;
 }
-.new {
+.news__new {
     word-break: break-all;
 }
-.new li {
+.news__new li {
 	font-size: 13px;
 	color: #787878;
 	display: block;
@@ -227,12 +231,12 @@ body {
 	border-bottom: 1px dashed #787878;
 	word-spacing: 2.5px;
 }
-.c-s2TEXT {
+.main__c-s2TEXT {
 	font-size: 18px;
 	font-weight: bold;
 	color: #565656;
 }
-.WWA {
+.main__WWA {
 	font-size: 13px;
 	color: #787878;
 	display: block;
@@ -240,7 +244,7 @@ body {
 	word-break: break-all;
 	word-spacing: 5px;
 }
-.button2 {
+.main__button2 {
 	width: 55px;
 	height: 15px;
 	display: block;
@@ -252,10 +256,10 @@ body {
     margin-left: 185px;
     font-size: 15px;
 }
-.button2:hover {
+.main__button2:hover {
 	cursor: pointer;
 }
-.c-s3TEXT{
+.main__c-s3TEXT{
 	font-size: 18px;
 	color: #565656;
 }
@@ -275,7 +279,7 @@ body {
 	 font-weight: bold; 
 }
 
-.LINEc-s3-1 { 
+.main__LINEc-s3-1 { 
 	width: 280px;
 	color: #999999;
 	display: block;
@@ -303,7 +307,7 @@ body {
 	display: block;
 }
 
-.LINEc-s3-2 {
+.main__LINEc-s3-2 {
 	display: block;
 	position: absolute;
 	width: 280px;
@@ -328,7 +332,7 @@ body {
 	margin-top: 83px;
     margin-left: 48px;
 }
-.LINEc-s3-3 {
+.main__LINEc-s3-3 {
 	display: block;
 	position: absolute;
 	width: 280px;
@@ -353,14 +357,14 @@ body {
 	margin-top: 116px;
 	margin-left: 48px;
 }
-.LINEc-s3-4 {
+.main__LINEc-s3-4 {
 	display: block;
 	position: absolute;
 	width: 280px;
 	color: #999999;
 	margin-top: 140px;
 }
-.ClLine1 {
+.main__ClLine1 {
 	color: #cccccc;
 	width: 37px;
 	height: 1px;
@@ -376,7 +380,7 @@ body {
 	margin-top: 982px;
 	margin-left: 39px;
 }
-.ClLine2 {
+.main__ClLine2 {
 	color: #cccccc;
 	width: 1077px;
 	height: 1px;
@@ -385,7 +389,7 @@ body {
 	margin-top: 980px;
 	margin-left: 123.5px;
 }
-.square {
+.main__square {
 	display: block;
 	position: relative;
     width: 50px;
@@ -409,7 +413,7 @@ body {
 	100% {transform: rotate(360deg);}
 
 }
-.LOADING {
+.containerLoad__LOADING {
 	display: block;
 	position: relative;
 	text-transform: uppercase;
