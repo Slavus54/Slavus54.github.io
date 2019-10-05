@@ -16,7 +16,7 @@ body {
 .header {
 	
 }
-.headline1 {
+.header__headline1 {
 	position: relative;
 	display: block;
 	font-family: 'Fira Sans', sans-serif;
@@ -26,7 +26,7 @@ body {
 	margin-top: 50px;
 	margin-left: 250px;
 }
-.menu {
+.header__menu {
      position: absolute;
      display: flex;
      font-family: 'Nunito Sans', sans-serif;
@@ -34,7 +34,7 @@ body {
      margin-left: 600px;
      list-style: none;
 }
-.menu li {
+.header__menu li {
     font-size: 20px;
     color: #5b5c5b;
     background-color: inherit;
@@ -43,12 +43,12 @@ body {
     padding: 11px 20px;
     transition: 0.2s;
 }
-.menu li:hover {
+.header__menu li:hover {
     color: white;
     background-color: #373737;
 }
 
-.line1 {
+.header__line1 {
 	position: absolute;
 	width: 1200px;
 	height: 1px;
@@ -59,7 +59,7 @@ body {
 	display: block;
 	font-family: 'Nunito Sans', sans-serif;
 }
-.headline2 {
+.review__headline2 {
 	position: absolute;
 	font-size: 57px;
     font-weight: 400;
@@ -67,7 +67,7 @@ body {
 	margin-top: 300px;
 	margin-left: 250px;
 }
-.des1 {
+.review__des1 {
 	position: absolute;
 	font-size: 41px;
 	font-weight: 400;
@@ -75,7 +75,7 @@ body {
 	margin-top: 370px;
 	margin-left: 250px;
 }
-.rev {
+.review__rev {
 	position: absolute;
 	display: block;
 	font-size: 20px;
@@ -90,7 +90,7 @@ body {
 	transition: 0.2s;
 
 }
-.rev:hover {
+.review__rev:hover {
 	font-size: 19px;
 	font-weight: 700;
 }
@@ -105,7 +105,7 @@ body {
 	margin-top: 250px;
 	margin-left: 650px;
 }
-.GreatNew {
+.main-news {
 	display: block;
 	font-family: 'Nunito Sans', sans-serif;
 }
@@ -115,7 +115,7 @@ body {
 	margin-top: 600px;
 	margin-left: 250px;
 }
-.headlineG {
+.main-news__headlineG {
     position: absolute;
     display: block;
     width: 300px;
@@ -127,7 +127,7 @@ body {
     word-spacing: 5px;
 
 }
-.textG {
+.main-news__textG {
 	position: absolute;
     display: block;
     width: 300px;
@@ -293,7 +293,7 @@ li {
     margin-top: 1350px;
     
 }
-.textF {
+.footer__textF {
     position: relative;
     display: block;
     font-size: 15px;
@@ -303,16 +303,16 @@ li {
     padding-top: 28px;
     margin-top: 28px;
 }
-.ccsauthor {
+.footer__ccsauthor {
     color: white;
     text-decoration: none;
 }
-.ccsauthor:hover {    
+.footer__ccsauthor:hover {    
     color: white;
     text-decoration: none;
     font-weight: 700;
 }
-.iconses {
+.footer__iconses {
     position: relative;
     display: flex;
     justify-content: space-around;
