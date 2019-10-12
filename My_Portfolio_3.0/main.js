@@ -1,6 +1,6 @@
 $(document).ready(function() {
- 	var link = $('.btn1'),
- 	overlay = $('.overlay1'),
+ 	var link = $('.form__btn1'),
+ 	overlay = $('.form__overlay1'),
  	close = $('.close1'),
  	modal = $('.modalen1');
  	link.on('click', function () {
@@ -26,8 +26,8 @@ $(document).ready(function() {
 	} )
 });
 $(document).ready(function() {
-	var link = $('.btn2'),
-	overlay =  $('.overlay2'),
+	var link = $('.form__btn2'),
+	overlay =  $('.form__overlay2'),
 	modal =  $('.modalen2'),
 	close = $('.close2');
 	link.on('click', function () {
