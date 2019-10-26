@@ -510,7 +510,6 @@ li {
 	width: 325px;
 	height: 225px;
 }
-
 #footer__text {
 	width: 220px;
 	font-family: 'Montserrat', sans-serif;
@@ -553,4 +552,59 @@ li {
 	font-weight: 400;
 	color: #7d8082;
 	margin-top: 18%;
+}
+
+@media screen and (max-width: 768px) {
+	.headline2 {
+		margin-top: 17%;
+	}
+	#header__button {
+		margin-top: 50%;
+	}
+	.about-container {
+		margin-left: -20%;
+	}
+	.about__amazing-works {
+		max-width: 200px;
+		
+		margin-left: 20%;
+	}
+	.about__simple-text {
+		max-width: 200px;
+		margin-top: 30%;
+		margin-left: 40%;
+	}
+	#mark1 {
+		max-width: 200px;
+		margin-left: 30%;
+	}
+	.about__great {
+		margin-top: 70%;
+		margin-left: 20%;
+	}
+	.about__simple-text-great {
+		max-width: 200px;
+		margin-top: 75%;
+	}
+	.featured-images {
+		max-width: 768px;
+	}
+	.services-rows {
+		margin-left: 5%;
+	}
+	.team {
+		margin-top: 4800px;
+	}
+	.team-line-up {
+		max-width: 768px;
+	}
+	.words {
+		margin-top: 6400px;
+	}
+	.footer {
+		margin-top: 7300px;
+	}
+	.footer-follow {
+		margin-top: 120%;
+	}
 }
