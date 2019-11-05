@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,700,900&display=swap&subset=cyrillic');
+
+body {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin: 0px auto;
+	overflow-x: hidden;
+	font-family: 'Rubik', sans-serif;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+.container {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	width: 1200px;
+	font-family: 'Rubik', sans-serif;
+}
+.main {
+	width: 1200px;
+	height: 1100px;
+}
+.main__fon {
+	position: absolute;
+	width: 1200px;
+	height: 1100px;
+	top: 0; 
+	left: 0;
+}
+.main-menu {
+	position: absolute;
+	display: flex;
+}
+.menu__logo {
+	position: absolute;
+	width: 240px;
+	height: 60px;
+	margin-top: 10%;
+	margin-left: 100px;
+}
+.menu {
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	width: 100%;
+	margin-top: 10%;
+	margin-left: 80%;
+}
+.menu li {
+	color: white;
+	font-family: 'Rubik', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	width: 100px;
+	margin-left: 16px;
+}
+.main-text {
+	position: relative;
+	display: flex;
+	justify-content: left;
+	margin-left: 100px;
+}
+.text__headline1 {
+	position: absolute;
+	font-family: 'Rubik', sans-serif;
+	font-size: 36px;
+	font-weight: 900;
+	color: white;
+	margin-top: 16.5%;
+}
+.text__headline2 {
+	position: absolute;
+	font-family: 'Rubik', sans-serif;
+	font-size: 48px;
+	font-weight: 900;
+	color: white;
+	margin-top: 22.2%;
+}
+.text__text {
+	position: absolute;
+	width: 500px;
+	text-align: left;
+	font-family: 'Rubik', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #7d7d7d;
+	margin-top: 30%;
+}
+.text__premiere {
+	position: absolute;
+	font-family: 'Rubik', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: red;
+	margin-top: 42.5%;
+}
+.text__date {
+	position: absolute;
+	font-family: 'Rubik', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: white;
+	margin-top: 45%;
+}
+.text__button {
+	position: absolute;
+	text-align: center;
+	font-family: 'Rubik', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: white;
+	background-color: #fc4710;
+	padding: 23px 31px;
+	border: none;
+	border-radius: 50px;
+	box-shadow: 0px -1px 3px red;
+	margin-top: 50%;
+}
+.main-slider {
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 1200px;
+	margin-top: 65%;
+}
+.slider__headline {
+	position: absolute;
+	font-family: 'Rubik', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: white;
+	margin-left: -35%;
+}
+.sl {
+	position: relative;
+	text-align: left;
+	font-family: 'Rubik', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: white;
+	margin-top: 10%;
+
+}
+.sl:nth-child(2) {
+	margin-left: 0%;
+}
+#year {
+	font-weight: 400;
+}
+#rate {
+	font-weight: 400;
+}
