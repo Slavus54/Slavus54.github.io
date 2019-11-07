@@ -152,7 +152,7 @@ a {
 .sl:nth-child(2) {
 	margin-left: 0%;
 }
-#year {
+.year {
 	font-weight: 400;
 }
 #rate {
