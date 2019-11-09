@@ -414,34 +414,73 @@ li {
 }
 
 @media screen and (max-width: 1050px) {
-	.descriptName {
+	.hello__descriptName {
 		margin-top: 476px;
 	}
 }
-@media screen and (max-width: 712px) {
+@media screen and (max-width: 960px) {
+	.content_active {
+	 	margin-left: 40%;
+	}
+	.card1 , .card2, .card3, .card4 , .card5, .card6 {
+		flex-basis: 175px;
+		margin: 5px;
+	}
+	.icon4 {
+		margin-left: 40%;
+		transition: 0.2s ease;
+	}
+	.form__btn2 {
+		margin-left: 40%;
+		transition: 0.2s ease;
+	}
+}
+@media screen and (max-width: 900px) {
+	.hello__descriptName {
+		width: 800px;
+		margin-left: -5%;
+		transition: 0.2s ease;
+	}
+	.form__btn1 {
+		margin-left: 42%;
+	}
+}
+@media screen and (max-width: 800px) {
+	.card1 , .card2, .card3, .card4 , .card5, .card6 {
+		flex-basis: 150px;
+		margin: 5px;
+	}
+}
+@media screen and (max-width: 720px) {
 	.card1 , .card2, .card3, .card4 , .card5, .card6 {
 		flex-basis: 150px;
 		margin: 5px;
 	}
 	.icon4 {
 		margin-left: 300px;
-		transition: 0.5s;
+		transition: 0.2s;
 	}
 	.btn1 {
 		position: relative;
 		display: flex;
 		margin-left: 250px;
-		transition: 0.5s;
+		transition: 0.2s;
 	}
 	.btn2 {
 		margin-left: 325px;
-		transition: 0.5s;
+		transition: 0.2s;
 	}
 	.content_active {
 		margin-left: 225px;
-		transition: 0.5s;
+		transition: 0.2s;
 	}
 	
+}
+@media screen and (max-width: 640px) {
+	.content_active {
+		width: 400px;
+	 	margin-left: 20%;
+	}
 }
 @media screen and (max-width: 480px) {
 	.card1 , .card2, .card3, .card4 , .card5, .card6 {
@@ -452,7 +491,7 @@ li {
 		width: 85%;
 	}
 	.icon4 {
-		margin-left: 150px;
+		margin-left: 40%;
 		transition: 0.5s;
 	}
 	
