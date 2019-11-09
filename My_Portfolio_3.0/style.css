@@ -477,14 +477,42 @@ li {
 	
 }
 @media screen and (max-width: 640px) {
+	.hello__descriptName {
+		width: 600px;
+		margin-left: 3%;
+	}
 	.content_active {
 		width: 400px;
 	 	margin-left: 20%;
 	}
 }
 @media screen and (max-width: 480px) {
+	.icon1 {
+		margin-top: 20%;
+		transition: 0.2s;
+	}
+	.hello__name {
+		margin-top: 55%;
+		transition: 0.2s;
+	}
+	.hello__descriptName {
+		width: 400px;
+		margin-top: 75%;
+		margin-left: 10%;
+	}
+	.form__btn1 {
+		margin-left: 30%;
+	}
+	.content_active {
+		width: 400px;
+		margin-left: 10%;
+	} 
+	.close {
+		right: 75px;
+	}
 	.card1 , .card2, .card3, .card4 , .card5, .card6 {
 		flex-basis: 125px;
+		height: 125px;
 		margin: 10px;
 	}
 	.descriptName {
@@ -498,6 +526,9 @@ li {
 	.btn2 {
 		margin-left: 175px;
 		transition: 0.5s;
+	}
+	.Trigger__interesting {
+		margin-left: 5%;
 	}
 
 }
