@@ -1,0 +1,39 @@
+.headlines__company {
+	margin-top: 3%;
+	font-size: 18px;
+}
+.menu {
+	position: relative;
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	width: 250px;
+	margin-left: 155%;
+}
+.headlines-bottom {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 500px;
+	font-size: 20px;
+	text-align: left;
+	margin-top: 5%;
+	margin-left: -40%;
+}
+.headlines-bottom li {
+	list-style: none;
+	margin-top: 5%;
+}
+
+.headlines__company {
+	font-size: 16px;
+}
+.headlines__image {
+	position: relative;
+	display: flex;
+	width: 400px;
+	box-shadow: 0px 2px 7px 0px black;
+	margin-top: 10%;
+	margin-left: 65%;
+}

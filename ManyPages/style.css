@@ -1,0 +1,85 @@
+body {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin: 0px auto;
+	overflow-x: hidden;
+	background-color: black;
+}
+li {
+	list-style: none;
+}
+.container {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	width: 1200px;
+	background-color: grey;
+	color: white;
+}
+.menu {
+	position: relative;
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	width: 250px;
+	margin-left: 118%;
+}
+.menu a {
+	text-decoration: none;
+	color: white;
+	border: 1px solid white;
+	padding: 5px 15px;
+}
+.menu a:active {
+	color: red;
+	box-shadow: 0px 2px 7px red;
+}
+.active {
+	background-color: red;
+}
+.container-headlines {
+	position: relative;
+	display: block;
+	justify-content: center;
+	text-align: center;
+	margin-top: 15%;
+	margin-right: 25%;
+}
+.headlines__main {
+	font-size: 28px;
+	text-transform: uppercase;
+	font-weight: 900;
+	text-shadow: 0px 0px 5px black;
+}
+.headlines__bottom {
+	margin-top: 3%;
+	font-size: 14px;
+}
+.headlines__image {
+	position: relative;
+	display: flex;
+	width: 400px;
+	box-shadow: 0px 2px 7px 0px black;
+	margin-top: 5%;
+}
+.headlines-made {
+	position: absolute;
+	font-size: 20px;
+	margin-top: 20%;
+	margin-left: 10%;
+}
+.headlines-made__what {
+	position: relative;
+	display: block;
+	width: 200px;
+	text-align: center;
+	flex-direction: column;
+	font-size: 20px;
+	margin-top: 20%;
+	margin-left: 35%;
+}
+.headlines-made__what li {
+	color: red;
+}
