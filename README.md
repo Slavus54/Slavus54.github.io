@@ -18,4 +18,4 @@
 
 (Star Wars simple psd with JQuery - https://slavus54.github.io/Star%20Wars/index.html)
 
-(Website with several pages and simple design - https://github.com/Slavus54/Slavus54.github.io/blob/master/ManyPages/index.html)
+(Website with several pages and simple design - https://slavus54.github.io/ManyPages/index.html)
