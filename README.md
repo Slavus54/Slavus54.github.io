@@ -17,3 +17,5 @@
 (Верстка Landing Page агенства по БЭМ и flexbox + JS и JQuery - https://slavus54.github.io/agency/index.html)
 
 (Star Wars simple psd with JQuery - https://slavus54.github.io/Star%20Wars/index.html)
+
+(Website with several pages and simple design - https://github.com/Slavus54/Slavus54.github.io/blob/master/ManyPages/index.html)
