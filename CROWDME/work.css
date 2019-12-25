@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,800,900|Open+Sans:400,700,800&display=swap');
+
+.container-how {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	width: 1300px;
+	height: 400px;
+	background-color: white;
+	margin-top: 7%;
+}
+.how__image {
+	position: absolute;
+	display: flex;
+	width: 1300px;
+	opacity: 0.3;
+}
+.how__headline {
+	position: absolute;
+	display: flex;
+	color: #515151;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 32px;
+	font-weight: 800;
+}
+.how__text {
+	position: absolute;
+	display: flex;
+	width: 600px;
+	height: 65px;
+	color: #515151;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	border: 1px solid white;
+	border-radius: 5px;
+	margin-top: 5%;
+}
+.how__button {
+	position: absolute;
+	display: flex;
+	color: white;
+	background-color: #bcda5c;
+	font-size: 11px;
+	font-weight: 400;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 20px;
+	padding: 15px 30px;
+	margin-top: 10.5%;
+}
+#buy {
+	margin-left: -7%;
+}
+#order {
+	margin-left: 7%;
+}
