@@ -21,3 +21,5 @@
 (Website with several pages and simple design - https://slavus54.github.io/ManyPages/index.html)
 
 (Adaptive template PSD with Bootstrap 4 and simple designed - https://slavus54.github.io/bootstrapPROJECT/index.html)
+
+(Great manypages template PSD with JQuery and modern design - https://slavus54.github.io/CROWDME/index.html)
