@@ -23,3 +23,5 @@
 (Adaptive template PSD with Bootstrap 4 and simple designed - https://slavus54.github.io/bootstrapPROJECT/index.html)
 
 (Great manypages template PSD with JQuery and modern design - https://slavus54.github.io/CROWDME/index.html)
+
+(Great JS quiz-test with junior knowledges https://slavus54.github.io/quiz-test/index.html)
