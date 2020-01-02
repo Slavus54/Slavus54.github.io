@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Work</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="bootstrap-grid.css">
+
+	<script src="jquery-3.4.1.min.js"></script>
+	<script src="main.js" defer></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<ul class="tests">
+					<li>
+					<button id="generate" onclick="text()">Сгенерировать вопрос</button>
+					<div class="circle" id="text"></div>
+					<span id="instruction">Выберите верный ответ и поместите его в Корзину</span>
+					<div class="answ">s</div>
+					<div class="answ">'function Singleton () {
+						const single = Singleton.single;
+						if (single) {
+						return single
+					} else {
+						Singleton.single = this
+					}
+					}'</div>
+					<div class="answ">s</div>
+					<div class="basket-answ" id="thisBasket">Корзина</div>
+					<div class="tab">Подсказка #1</div>
+					<div class="content">s</div>
+					<div class="tab">Подсказка #2</div>
+					<div class="content">s</div>
+					<div class="tab">Подсказка #3</div>
+					<div class="content">s</div>
+					</li>
+
+					<li>
+					<button id="generate" onclick="text1()">Сгенерировать вопрос</button>
+					<div class="circle" id="text1"></div>
+					<span id="instruction">Выберите верный ответ и поместите его в Корзину</span>
+					<div class="answ1">
+					map(); <br>
+					forEach(); <br>
+					reduce(); <br>
+					</div>
+					<div class="answ1">getAttribute();
+					appendChild();</div>
+					<div class="answ1">s</div>
+					<div class="basket-answ" id="thisBasket1">Корзина</div>
+					<div class="tab1">Подсказка #1</div>
+					<div class="content">s</div>
+					<div class="tab1">Подсказка #2</div>
+					<div class="content">s</div>
+					<div class="tab1">Подсказка #3</div>
+					<div class="content">s</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

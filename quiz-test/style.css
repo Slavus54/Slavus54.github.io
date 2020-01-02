@@ -1,0 +1,93 @@
+body {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin : 0 auto;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+.container {
+ 	background-color: #C0D0C5;
+}
+.tests {
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	flex-direction: row;
+}
+.tests li {
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	width: 250px;
+	max-height: 1300px;
+	flex-direction: column;
+}
+#generate {
+	max-width: 200px;
+	color: white;
+	background-color: blue;
+	padding: 30px 0px;
+	border: none;
+	border-radius: 40px;
+}
+#generate:hover {
+	cursor: pointer;
+}
+#generate:focus {
+	outline: none;
+}
+.circle {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	line-height: 200px;
+	width: 200px;
+	height: 200px;
+	color: white;
+	background-color: red;
+	border-radius: 50%;
+	margin-top: 5%;
+}
+#instruction {
+	margin-top: 10%;
+}
+.answ {
+	max-width: 150px;
+	margin-top: 5%;
+}
+.answ1 {
+	max-width: 150px;
+	margin-top: 5%;
+}
+.basket-answ {
+	height: 200px;
+	border: 1px solid black;
+}
+.basket-answ1 {
+	height: 200px;
+	border: 1px solid black;
+}
+.tab {
+	position: relative;
+	margin-top: 10%;
+}
+.tab1 {
+	position: relative;
+	margin-top: 10%;
+}
+.content {
+	position: relative;
+	overflow: hidden;
+	max-height: 0px;
+	margin-top: 0%;
+}
+.active {
+	max-height: 150px;
+	overflow: visible;
+}
