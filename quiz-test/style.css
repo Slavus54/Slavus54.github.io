@@ -10,6 +10,12 @@ li {
 a {
 	text-decoration: none;
 }
+button:hover {
+	cursor: pointer;
+}
+button:focus {
+	outline: none;
+}
 .container {
  	background-color: #C0D0C5;
 }
@@ -35,12 +41,6 @@ a {
 	padding: 30px 0px;
 	border: none;
 	border-radius: 40px;
-}
-#generate:hover {
-	cursor: pointer;
-}
-#generate:focus {
-	outline: none;
 }
 .circle {
 	display: flex;
@@ -90,4 +90,16 @@ a {
 .active {
 	max-height: 150px;
 	overflow: visible;
+}
+.result {
+	width: 120px;
+	height: 40px;
+	border: none;
+	border-radius: 15px;
+	color: white;
+	background-color: blue;
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: 20%;
+	margin-left: 10%;
 }

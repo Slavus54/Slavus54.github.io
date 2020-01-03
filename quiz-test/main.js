@@ -12,6 +12,7 @@ for (i=0; i<array.length; i++) {
 	array[i].addEventListener('click', function () {
 		var basket = document.getElementById('thisBasket');
 		basket.appendChild(this);
+		console.log(basket);
 	});
 }
 
@@ -46,3 +47,35 @@ for (i=0; i<tab.length; i++) {
 		content.style.color = 'white';
 	});
 } 
+
+let result = document.getElementById('first');
+result.addEventListener('click', resultHandler);
+
+function resultHandler () {
+	var basket = document.getElementById('thisBasket');
+	var basketNew = basket.outerHTML;
+	var right = document.getElementById('right1');
+	var rightNew = right.outerHTML;
+
+	if (rightNew) {
+		right.style.backgroundColor = 'green';
+		right.style.color = 'white';
+		
+	}
+}
+
+let result1 = document.getElementById('second');
+result1.addEventListener('click', resultHandlerRight);
+
+function resultHandlerRight () {
+	var basket = document.getElementById('thisBasket1');
+	var basketNew = basket.outerHTML;
+	var right = document.getElementById('right2');
+	var rightNew = right.outerHTML;
+
+	if (rightNew) {
+		right.style.backgroundColor = 'green';
+		right.style.color = 'white';
+		
+	}
+}

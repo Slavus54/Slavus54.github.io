@@ -21,7 +21,7 @@
 					<div class="circle" id="text"></div>
 					<span id="instruction">Выберите верный ответ и поместите его в Корзину</span>
 					<div class="answ">s</div>
-					<div class="answ">'function Singleton () {
+					<div id="right1" class="answ">'function Singleton () {
 						const single = Singleton.single;
 						if (single) {
 						return single
@@ -29,7 +29,7 @@
 						Singleton.single = this
 					}
 					}'</div>
-					<div class="answ">s</div>
+					<div class="answ">ss</div>
 					<div class="basket-answ" id="thisBasket">Корзина</div>
 					<div class="tab">Подсказка #1</div>
 					<div class="content">s</div>
@@ -37,13 +37,14 @@
 					<div class="content">s</div>
 					<div class="tab">Подсказка #3</div>
 					<div class="content">s</div>
+					<button id="first" class="result">Результат</button>
 					</li>
 
 					<li>
 					<button id="generate" onclick="text1()">Сгенерировать вопрос</button>
 					<div class="circle" id="text1"></div>
 					<span id="instruction">Выберите верный ответ и поместите его в Корзину</span>
-					<div class="answ1">
+					<div id="right2" class="answ1">
 					map(); <br>
 					forEach(); <br>
 					reduce(); <br>
@@ -58,6 +59,7 @@
 					<div class="content">s</div>
 					<div class="tab1">Подсказка #3</div>
 					<div class="content">s</div>
+					<button id="second" class="result">Результат</button>
 					</li>
 				</ul>
 			</div>
