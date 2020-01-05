@@ -1,10 +1,21 @@
-function text () {
+function text (a) {
 	let text = document.getElementById('text');
-	text.innerHTML = 'Пример паттерна одиночки';
+	let y = a;
+	text.innerHTML = y;
 }
-function text1 () {
+function text1 (a) {
 	let text = document.getElementById('text1');
-	text.innerHTML = 'Методы перебора массива';
+	let y = a;
+	text.innerHTML = y;
+}
+var run = function (fn, x) {
+	fn(x);
+}
+function run1 () {
+	run(text, 'Пример паттерна одиночки');
+}
+function run2 () {
+	run(text1, 'Методы перебора массива');
 }
 var array = document.getElementsByClassName('answ');
 console.log(array);
