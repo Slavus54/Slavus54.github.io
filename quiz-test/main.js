@@ -1,16 +1,14 @@
 function text (a) {
 	let text = document.getElementById('text');
-	let y = a;
-	text.innerHTML = y;
+	text.innerHTML = a;
 }
 function text1 (a) {
 	let text = document.getElementById('text1');
-	let y = a;
-	text.innerHTML = y;
+	text.innerHTML = a;
 }
 var run = function (fn, x) {
 	fn(x);
-}
+};
 function run1 () {
 	run(text, 'Пример паттерна одиночки');
 }
@@ -90,3 +88,33 @@ function resultHandlerRight () {
 		
 	}
 }
+var greetButton = document.getElementById('greetingBut');
+
+greetButton.addEventListener('click', function () {
+    var input = document.getElementById('greetingIn');
+    var val = input.value;
+    greeting(val);
+});
+var need = "Welcome, ",
+	for1 = "how are you",
+	for2 = "nice to meet you",
+	userX = [];
+
+var greeting = function (num) {
+	var greet = need;
+	if (userNew(num)) {
+		greet += num + " " +for1;
+	} else {
+		greet += num + " " +for2;
+	}
+	alert(greet);
+}
+var userNew = function (num) {
+	for (i=0; i<userX.length; i++) {
+		if (userX[i] === num) {
+			return false;
+		}
+	}
+	userX.push(num);
+	return true;	
+};
