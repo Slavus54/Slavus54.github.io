@@ -1,5 +1,5 @@
 # Slavus54.github.io
-Мои сверстанные сайты
+Мои сверстанные сайты и JS-фичи
 
 
 (первый сверстанный сайт-блог https://slavus54.github.io/Lorem_firstSite/indexer.html) - простой сайт-блог
