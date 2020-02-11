@@ -98,13 +98,13 @@ li {
 	left: 50%;
 	color: black;
 	background-color: white;
-	transform: translate(-350%, -50%);
+	transform: translate(-600%, -50%);
 	padding: 20px;
 }
 .popup1_active {
 	display: block;
 	transform: translate(-50%, -50%);
-	transition: all 1s;
+	transition: all 0.7s;
 	z-index: 1;
 }
 .popup-main__close {
@@ -334,6 +334,6 @@ li {
 .popup2_active {
 	display: block;
 	transform: translate(-50%, -50%);
-	transition: all 1s;
+	transition: all 0.7s;
 	z-index: 1;
 }
