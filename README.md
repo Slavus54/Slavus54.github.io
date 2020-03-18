@@ -27,3 +27,5 @@
 (Great JS quiz-test with junior knowledges https://slavus54.github.io/quiz-test/index.html)
 
 (New great portfolio - https://slavus54.github.io/Portfolio_Great/index.html)
+
+(Great presentation website - https://slavus54.github.io/Presentation%20Slide%20Website/index.html#slide=1)
