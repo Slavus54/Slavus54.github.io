@@ -32,4 +32,4 @@
 
 (Great Parallax site - https://slavus54.github.io/Parallax-Rellax/index.html)
 
-(YouTube copy - https://slavus54.github.io/Youtube/index.html)
+(YouTube copy - https://slavus54.github.io/Youtube/)
