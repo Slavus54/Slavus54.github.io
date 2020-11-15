@@ -1,0 +1,100 @@
+$default-font-color: rgb(0, 0, 0);
+$background-color: rgb(149, 206, 216);
+$container-bgc: rgb(199, 208, 211);
+$container-border-color: #000;
+
+@import '_shared';
+
+@mixin mp($size) {
+    @media only screen and (min-width: $size) {
+        @content
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html, body {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    color: $default-font-color;
+    width: 100%;
+    min-height: 100%;
+    @include mp(768px) {
+        font-size: 24px;
+    }
+}
+
+body {
+    padding: 20px;
+    background-color: $background-color;
+}
+
+section {
+    background-color: $container-bgc;
+    width: 90%;
+    max-width: 700px;
+    margin: auto;
+    border: 1px solid $container-border-color;
+}
+
+.newItemEntry {
+    position: sticky;
+    top: 0;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+
+        form {
+            display: flex;
+            justify-content: space-around;
+            
+            label {
+                position: absolute;
+                left: -1000px;
+            }
+
+            input[type="text"] {
+                width: 80%;
+                font-size: 1.25rem;
+                border: 2px solid $container-border-color;
+                padding: 0.75rem;
+                outline: none;
+            }
+
+            input[type="text"]:focus,
+            input[type="text"]:hover {
+                box-shadow: 1px 1px 1px black;
+            }
+        }
+}
+
+.listContainer {
+    min-height: 60vh;
+    padding: 0.75rem;
+
+    .listTitle {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+       button {
+           @include mp(768px) {
+               padding: 0 0.5rem;
+           }
+       }
+
+       hr {
+           width: 100%;
+       }
+
+       .item {
+           display: flex;
+           justify-content: flex-start;
+           align-items: center;
+           padding: 1rem;
+       }
+    }
+}
