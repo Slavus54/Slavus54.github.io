@@ -33,3 +33,5 @@
 (Great Parallax site - https://slavus54.github.io/Parallax-Rellax/index.html)
 
 (YouTube copy - https://slavus54.github.io/Youtube/)
+
+(Great todos in Vanilla JS OPP - https://slavus54.github.io/todos-van/)
